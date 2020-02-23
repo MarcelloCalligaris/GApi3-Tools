@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GapiParser": {
+      "commandName": "Project",
+      "commandLineArgs": "sources\\sources.xml",
+      "workingDirectory": "C:\\git\\GtkSharpSourceView\\"
+    }
+  }
+}

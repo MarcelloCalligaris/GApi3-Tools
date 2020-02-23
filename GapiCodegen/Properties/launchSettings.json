@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GapiCodegen": {
+      "commandName": "Project",
+      "commandLineArgs": "--outdir=GtkSharpSourceView/generated/ --include=sources/GtkSharp/Source/Libs/GLibSharp/GLibSharp-api.xml --include=sources/GtkSharp/Source/Libs/GioSharp/GioSharp-api.xml --include=sources/GtkSharp/Source/Libs/GdkSharp/GdkSharp-api.xml --include=sources/GtkSharp/Source/Libs/GdkSharp/GdkSharp-symbols.xml --include=sources/GtkSharp/Source/Libs/CairoSharp/CairoSharp-api.xml --include=sources/GtkSharp/Source/Libs/PangoSharp/PangoSharp-api.xml --include=sources/GtkSharp/Source/Libs/AtkSharp/AtkSharp-api.xml --include=sources/GtkSharp/Source/Libs/GtkSharp/GtkSharp-api.xml --include=sources/GtkSharp/Source/Libs/GtkSharp/GtkSharp-symbols.xml --include=GtkSharpSourceView/GtkSource-symbols.xml --generate=GtkSharpSourceView/GtkSource-api.xml",
+      "workingDirectory": "C:\\git\\GtkSharpSourceView"
+    }
+  }
+}
