@@ -34,15 +34,35 @@ namespace GApi.Parser {
 
 	public static class Parser  
     {
+		private static string _perl=null;
+		private static string perl 
+		{
+			get{
+				if(string.IsNullOrWhiteSpace(_perl))
+					return Environment.OSVersion.Platform switch{
+						 var x when (x == PlatformID.Win32NT 
+						 	|| x==PlatformID.Win32S 
+							 || x == PlatformID.Win32Windows
+							 || x==PlatformID.WinCE) => "C:\\Perl64\\bin\\perl.exe",n
+						_=>"/usr/bin/perl"
+					};
+				else return _perl;
+	
+			}
+		}
         public static async Task<int> Main (string[] args)
 		{
 			if (args.Length != 1) 
             {
-				Console.WriteLine ("Usage: gapi2-parser <filename>");
-				return 0;
+				if(args.Length==2){
+					Console.WriteLine ($"Using perl at {args[1]}");
+					_perl = args[1];
+				}
+				else {
+					Console.WriteLine ("Usage: gapi2-parser <filename> [path_to_perl_exec]");
+					return 0;
+				}
 			}
-
-            string perl = "C:\\Perl64\\bin\\perl.exe";
 			XmlDocument srcDoc = new XmlDocument ();
 
 			try
