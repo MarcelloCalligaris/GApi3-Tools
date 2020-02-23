@@ -43,7 +43,7 @@ namespace GApi.Parser {
 						 var x when (x == PlatformID.Win32NT 
 						 	|| x==PlatformID.Win32S 
 							 || x == PlatformID.Win32Windows
-							 || x==PlatformID.WinCE) => "C:\\Perl64\\bin\\perl.exe"
+							 || x==PlatformID.WinCE) => "C:\\Perl64\\bin\\perl.exe",
 						_=>"/usr/bin/perl"
 					};
 				else return _perl;
