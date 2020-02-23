@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapiCodegen", "GapiCodegen\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapiFixup", "GapiFixup\GapiFixup.csproj", "{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapiParser", "GapiParser\GapiParser.csproj", "{3EEC9528-A502-4459-A229-53CDA150986C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapiParser", "GapiParser\GapiParser.csproj", "{3EEC9528-A502-4459-A229-53CDA150986C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
