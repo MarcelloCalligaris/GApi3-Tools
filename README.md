@@ -18,6 +18,4 @@ GapiParser was taken from [mono/gtk-sharp](https://github.com/mono/gtk-sharp/tre
 
 ### Modifications
 
-Minor modifications were made to GApi Parser to make it more Windows-friendly, primarily the use of `System.Diagnostics.Process` to run the perl scripts instead of using `system("gapi_pp.pl ... | gapi2xml.pl ...")`
-
-In addition, some variable and method names were modified to be more inline with .NET naming conventions. Most of the logic remains untouched.
+Minor modifications were made to GApi Parser to make it more inline with the .NET world, primarily the use of `System.Diagnostics.Process` to run the perl scripts instead of using `system("gapi_pp.pl ... | gapi2xml.pl ...")`. In addition, some variable and method names were modified to be more inline with .NET naming conventions. Most of the logic remains untouched.
