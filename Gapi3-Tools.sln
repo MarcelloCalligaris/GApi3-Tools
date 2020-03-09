@@ -9,24 +9,46 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapiFixup", "GapiFixup\Gapi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapiParser", "GapiParser\GapiParser.csproj", "{3EEC9528-A502-4459-A229-53CDA150986C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapiLoader", "GapiLoader\GapiLoader.csproj", "{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Debug|x64.ActiveCfg = Debug|x64
 		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Debug|x64.Build.0 = Debug|x64
+		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Release|Any CPU.ActiveCfg = Release|x64
 		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Release|x64.ActiveCfg = Release|x64
 		{39F706F8-EBD7-4824-AAC1-C1C075B5AD25}.Release|x64.Build.0 = Release|x64
+		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Debug|x64.ActiveCfg = Debug|x64
 		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Debug|x64.Build.0 = Debug|x64
+		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Release|x64.ActiveCfg = Release|x64
 		{B1823E07-4B8F-4C3D-80B5-1CD0934D7EE0}.Release|x64.Build.0 = Release|x64
+		{3EEC9528-A502-4459-A229-53CDA150986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEC9528-A502-4459-A229-53CDA150986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EEC9528-A502-4459-A229-53CDA150986C}.Debug|x64.ActiveCfg = Debug|x64
 		{3EEC9528-A502-4459-A229-53CDA150986C}.Debug|x64.Build.0 = Debug|x64
+		{3EEC9528-A502-4459-A229-53CDA150986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEC9528-A502-4459-A229-53CDA150986C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3EEC9528-A502-4459-A229-53CDA150986C}.Release|x64.ActiveCfg = Release|x64
 		{3EEC9528-A502-4459-A229-53CDA150986C}.Release|x64.Build.0 = Release|x64
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Debug|x64.Build.0 = Debug|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Release|x64.ActiveCfg = Release|Any CPU
+		{0480C0C6-B1AB-48F3-A7FF-01BB371CA346}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

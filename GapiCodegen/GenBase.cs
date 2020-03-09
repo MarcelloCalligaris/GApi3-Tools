@@ -64,7 +64,8 @@ namespace GtkSharp.Generation {
 
 		public string LibraryName {
 			get {
-				return ns.GetAttribute ("library");
+				string lib = ns.GetAttribute ("library");
+				return lib.StartsWith("GLibrary.")? lib: $"GLibrary.{lib}";
 			}
 		}
 

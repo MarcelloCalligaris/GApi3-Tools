@@ -198,7 +198,7 @@ namespace GtkSharp.Generation {
 				sw.WriteLine("\t\tdelegate " + retval.CSType + " d_" + CName + "(" + import_sig + ");");
 			else
                 sw.WriteLine("\t\tdelegate " + retval.MarshalType + " d_" + CName + "(" + import_sig + ");");
-			sw.WriteLine("\t\tstatic d_" + CName + " " + CName + " = FuncLoader.LoadFunction<d_" + CName + ">(FuncLoader.GetProcAddress(GLibrary.Load(" + LibraryName + "), \"" + CName + "\"));");
+			sw.WriteLine("\t\tstatic d_" + CName + " " + CName + " = GLibrary.FuncLoader.LoadFunction<d_" + CName + ">(GLibrary.FuncLoader.GetProcAddress(GLibrary.GLibrary.Load(" + LibraryName + "), \"" + CName + "\"));");
 			sw.WriteLine();
 		}
 
